@@ -13,8 +13,8 @@ In this tutorial, you'll learn:
 * Introduction to Dask for parallel computing [[link](https://github.com/MATRICS-Bootcamp/scaling-up-cpus-and-gpus/blob/main/dask_distribution_on_multiple_cpus.ipynb)]
 * Distributing to multiple CPUs in Dask [[link](https://github.com/MATRICS-Bootcamp/scaling-up-cpus-and-gpus/blob/main/dask_distribution_on_multiple_cpus.ipynb)]
 * Integrating Dask with your analysis scripts [[link](https://github.com/MATRICS-Bootcamp/scaling-up-cpus-and-gpus/blob/main/dask_distribution_on_multiple_cpus.ipynb)]
-* Loading your model onto a single GPU in PyTorch [[link]()]
-* Using `DistributedDataParallel` to distribute to multiple GPUs with PyTorch [[link]()]
+* Loading your model onto a single GPU in PyTorch [[link](https://github.com/MATRICS-Bootcamp/scaling-up-cpus-and-gpus/blob/main/scaling_up_gpu_compute.ipynb)]
+* Using `DistributedDataParallel` to distribute to multiple GPUs with PyTorch [[link](https://github.com/MATRICS-Bootcamp/scaling-up-cpus-and-gpus/blob/main/scaling_up_gpu_compute.ipynb)]
 
 ## How to Install a Custom Jupyter Lab Kernel from a Containerized Environment
 Installing Python packages with specific versions and dependencies can be challenging in an HPC workspace like Sherlock. One potential solution is to containerize your coding environment (See our [workshop on package management](https://github.com/stanford-sdss/package-management/) to learn how to build your own containers!). We took this approach and containerized our custom Python environment which you can use to access all the Python packages used in this tutorial from an Open On Demand Jupyter Lab session using the following steps. 
