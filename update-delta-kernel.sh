@@ -12,7 +12,7 @@ cat > ~/.local/share/jupyter/kernels/dask-distribute/kernel.json << 'EOF'
 {
     "argv": [
         "apptainer", "exec", 
-        "~/dask-distribute.sif",
+        "/projects/bhfx/containers/dask-distribute.sif",
         "python", "-m", "ipykernel_launcher", "-f", "{connection_file}"
     ],
     "display_name": "Dask Distribute (daskenv)",
@@ -30,7 +30,7 @@ cat > ~/.local/share/jupyter/kernels/pytorch-ddp/kernel.json << 'EOF'
 {
     "argv": [
         "apptainer", "exec", "--nv",
-        "~/pytorch-ddp.sif",
+        "/projects/bhfx/containers/pytorch-ddp.sif",
         "python", "-m", "ipykernel_launcher", "-f", "{connection_file}"
     ],
     "display_name": "PyTorch DDP (torchenv)",
