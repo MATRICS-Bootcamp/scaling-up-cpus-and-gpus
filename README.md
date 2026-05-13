@@ -9,7 +9,7 @@ In this tutorial, you'll learn:
 
 ## Today's Tutorial Agenda
 
-* Installing containers and Jupyter kernels from a shared folder [[link]()]
+* Installing containers and Jupyter kernels from a shared folder [[link](https://github.com/MATRICS-Bootcamp/scaling-up-cpus-and-gpus#how-to-install-a-custom-jupyter-lab-kernel-from-a-containerized-environment)]
 * Introduction to Dask for parallel computing [[link]()]
 * Distributing to multiple CPUs in Dask [[link]()]
 * Integrating Dask with your analysis scripts [[link]()]
